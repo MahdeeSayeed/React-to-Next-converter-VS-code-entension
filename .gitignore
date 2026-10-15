@@ -1,0 +1,18 @@
+# Node Dependencies
+node_modules/
+
+# Extension Build & Packaging Outputs
+dist/
+out/
+*.vsix
+
+# Testing & Cache Directories
+.vscode-test/
+.kilo/
+.vscode/
+
+# Project-specific Test Apps
+my-react-app/
+
+# Logs
+*.log
