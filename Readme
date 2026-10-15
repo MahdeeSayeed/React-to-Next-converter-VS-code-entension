@@ -1,0 +1,36 @@
+React to Next.js Converter (react-to-next-converter)
+
+A lightweight, experimental VS Code extension built to automate common migration tasks when converting standard React components into Next.js App Router compatible files using Abstract Syntax Tree (AST) parsing with @babel/parser.
+
+🚀 About This Project
+
+This project was built purely as a personal hobby and experimental project at home, created with AI guidance and collaboration (Gemini). It was developed as a creative exploration into AST code manipulation, VS Code extension development, and React/Next.js migration patterns.
+
+✨ Features
+
+Client Directive Injection: Automatically adds 'use client' to components containing interactive React hooks (useState, useEffect, etc.) or event handlers.
+
+Image Optimization: Converts standard HTML <img> elements to Next.js <Image /> components (next/image).
+
+Link Transformation: Updates standard <a> tags and React Router <Link> components to Next.js <Link> (next/link).
+
+Router Hook Migration: Converts react-router-dom navigation hooks (like useNavigate) to Next.js App Router equivalents (useRouter from next/navigation).
+
+💡 Usage for Developers
+
+Other developers are welcome to study, fork, use, or build upon this codebase to create their own tools or custom migration scripts.
+
+If you find this repository helpful for learning about AST transformations or VS Code extensions, feel free to use it as a base for your own creative projects!
+
+📄 License & Disclaimer of Liability
+
+Provided "AS IS" Without Warranty
+
+This software is provided purely as a hobby/creative experiment:
+
+No Warranty: This project is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+
+No Liability: In no event shall the author or AI contributors be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the software or the use or other dealings in the software.
+
+User Responsibility: Transformed code should always be reviewed by developers before being used in production environments. The creator assumes no responsibility for bugs, edge-case failures, syntax errors, or unexpected behavior resulting from automated AST conversions.
+
